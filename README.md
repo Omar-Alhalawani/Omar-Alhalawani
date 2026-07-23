@@ -133,10 +133,9 @@ A Wi-Fi-controlled robotic vehicle with a mounted arm, custom mechanical compone
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Omar-Alhalawani&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Omar's GitHub statistics" />
-<img height="165" src="https://streak-stats.demolab.com?user=Omar-Alhalawani&theme=tokyonight&hide_border=true" alt="Omar's GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=Omar-Alhalawani&theme=tokyonight&hide_border=true" width="55%" alt="Omar's GitHub contribution streak" />
 
-<br>
+<br><br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Omar-Alhalawani&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="Omar's contribution graph" />
 
