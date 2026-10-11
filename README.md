@@ -11,7 +11,7 @@
 <a href="https://www.linkedin.com/in/omar-alhalawani/">
   <img src="https://img.shields.io/badge/LinkedIn-Omar%20Alhalawani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://omar-alhalawani.github.io/omar-portfolio/">
+<a href="https://omar-alhalawani-portfolio.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-View%20My%20Work-0F172A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
 </a>
 <a href="mailto:omar.alhalawani2006@gmail.com">
@@ -142,7 +142,7 @@ An Arduino-based handheld memory game with multiple game modes, audio feedback, 
 
 <div align="center">
 
-<a href="https://omar-alhalawani.github.io/omar-portfolio/">
+<a href="https://omar-alhalawani-portfolio.vercel.app/">
   <img src="https://img.shields.io/badge/See%20More%20Projects-Explore%20My%20Portfolio-0284C7?style=for-the-badge&logo=githubpages&logoColor=white" alt="Explore my portfolio" />
 </a>
 
@@ -172,7 +172,7 @@ I am always interested in discussing embedded systems, robotics, digital hardwar
 <a href="https://www.linkedin.com/in/omar-alhalawani/">
   <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
 </a>
-<a href="https://omar-alhalawani.github.io/omar-portfolio/">
+<a href="https://omar-alhalawani-portfolio.vercel.app/">
   <img src="https://img.shields.io/badge/Explore%20My%20Portfolio-0F172A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Explore my portfolio" />
 </a>
 
