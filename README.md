@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:22D3EE&height=190&section=header&text=Omar%20Alhalawani&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Computer%20Systems%20Engineering%20%7C%20Embedded%20Systems%20%7C%20Robotics%20%7C%20ASIC%20Verification&descAlignY=57&descSize=16" width="100%" alt="Omar Alhalawani header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:22D3EE&height=190&section=header&text=Omar%20Alhalawani&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Computer%20Systems%20Engineering%20%7C%20ASIC%20Verification%20%7C%20RTL%20%7C%20Embedded%20Systems&descAlignY=57&descSize=16" width="100%" alt="Omar Alhalawani header" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+systems+where+hardware+meets+software;QNX+%7C+RTL+%7C+Robotics+%7C+Embedded+Linux;Turning+engineering+ideas+into+working+prototypes" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=SystemVerilog+%7C+UVM+%7C+Python+Automation;RTL+Design+%7C+Digital+Verification;QNX+%7C+Embedded+Systems+%7C+Robotics" alt="Typing SVG" />
 </a>
 
 <br>
@@ -26,14 +26,15 @@
 
 ## About Me
 
-I am a third-year **Honours Computer Systems Engineering Co-op student at Carleton University** and an **ASIC Engineering Co-op at Ciena**.
+I am a third-year **Computer Systems Engineering (Honours Co-op) student at Carleton University**, with interests in **ASIC verification, RTL and digital design, embedded systems, and Python automation**. I am a recipient of the **Ontario Professional Engineers Scholarship**.
 
-I enjoy engineering systems where software has to interact with real hardware, timing constraints, sensors, electronics, and physical devices. My work spans **embedded systems, digital hardware, verification, robotics, real-time computing, automation, and Linux-based development**.
+I completed a **Summer 2026 ASIC Engineer I co-op at Ciena** on the **Digital Verification Methodology / Methodology & Automation team** and have accepted a **return co-op offer starting January 2027**. My work involved **pyuvm, cocotb, self-checking verification testbenches, fault-injection experiments, regression analysis, and Python tooling for Makefile-based compile flows**.
 
-- Working with **Python, SystemVerilog, UVM, pyuvm, Linux, Git, Make, and verification workflows**
-- Building embedded systems with **C, C++, Raspberry Pi, ESP32, Arduino, sensors, cameras, and motor control**
-- Exploring **FPGA design, RTL verification, real-time operating systems, robotics, and autonomous systems**
-- Rebuilding and modernizing hardware with open-source firmware and maintainable components
+- **Digital hardware:** SystemVerilog, Verilog, UVM, FPGA design, RTL simulation and debugging
+- **Embedded & real-time:** C/C++, QNX RTOS, Raspberry Pi, Arduino, sensors and hardware/software integration
+- **Research instrumentation:** Python-based data acquisition, NI-DAQ, multichannel sensor logging and visualization
+- **Leadership & teaching:** Teaching Assistant for Digital Systems and Programming; Vice President Internal of the Carleton Muslim Students' Association
+- **Hands-on electronics:** Founder of Alhalawani Tech Solutions, providing electronics diagnostics and repair
 
 ## Technology Stack
 
@@ -44,7 +45,7 @@ I enjoy engineering systems where software has to interact with real hardware, t
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/SystemVerilog-8A2BE2?style=flat-square&logoColor=white" alt="SystemVerilog" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Verilog-0369A1?style=flat-square&logoColor=white" alt="Verilog" />
   <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
@@ -79,62 +80,62 @@ I enjoy engineering systems where software has to interact with real hardware, t
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center"><a href="https://github.com/Omar-Alhalawani/lumalink">LumaLink</a></h3>
+<h3 align="center"><a href="https://github.com/Omar-Alhalawani/sync-fifo-rtl-verification">Synchronous FIFO RTL Design & Verification</a></h3>
 
-A real-time optical emergency communication system built on **QNX RTOS**. A Raspberry Pi camera detects high-speed Morse-code light flashes, decodes them into text, and uses a locally hosted AI model to generate an operator-friendly emergency summary.
-
-`QNX` `C` `Python` `Raspberry Pi 5` `Computer Vision` `Local AI`
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center"><a href="https://github.com/Omar-Alhalawani/sync-fifo-rtl-verification">Synchronous FIFO RTL Verification</a></h3>
-
-A parameterized synchronous FIFO built in **SystemVerilog** with valid-ready handshaking, overflow and underflow protection, and a self-checking testbench with a scoreboard reference model.
+Designed a **parameterized synchronous FIFO in SystemVerilog** with valid/ready handshaking and full/empty detection. Built a **self-checking testbench with a reference scoreboard** to test FIFO ordering, fill/drain behavior, and pointer wraparound.
 
 `SystemVerilog` `RTL` `Verification` `Scoreboard` `Icarus Verilog`
 
 </td>
+<td width="50%" valign="top">
+
+<h3 align="center"><a href="https://github.com/Omar-Alhalawani/lumalink">LumaLink — cuHacking 7</a></h3>
+
+Developed a **light-based Morse-code communication prototype at cuHacking 7** with a four-person team. Used **QNX RTOS and the C Camera API on Raspberry Pi 5** for optical reception, plus Python for transmission, decoding, and local message summarization.
+
+`QNX` `C` `Python` `Raspberry Pi 5` `Camera API`
+
+</td>
 </tr>
 
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center"><a href="https://github.com/Omar-Alhalawani/CubeX-Trio-Revival">CubeX Trio Revival</a></h3>
+<h3 align="center"><a href="https://github.com/Omar-Alhalawani/EMG-Signal-Acquisition-and-Processing">BioCARE — EMG Signal Acquisition</a></h3>
 
-A conversion of a discontinued proprietary **3D Systems CubeX Trio** into an open-source 3D printer using an SKR V1.4 Turbo, TMC2209 drivers, Marlin firmware, a modern hotend, and reusable original hardware.
+Built an **experimental EMG acquisition and processing pipeline** using Arduino and Python. Implemented live visualization, signal rectification, moving RMS/envelope processing, activation detection, and CSV data logging; explored motor-control interfaces.
 
-`Marlin` `Embedded Hardware` `C++` `Electronics` `System Integration`
+`Arduino` `Python` `EMG` `Signal Processing` `Tkinter`
 
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center"><a href="https://github.com/Omar-Alhalawani/Wireless_IoT-Controlled_Robotic_Car">Wireless Robotic Car</a></h3>
+<h3 align="center"><a href="https://omar-alhalawani-portfolio.vercel.app/">Mini-Lysimeter Research Data Acquisition</a></h3>
 
-A Wi-Fi-controlled robotic vehicle with a mounted robotic arm, custom mechanical components, servo control, and a separate potentiometer-based controller for handling and transporting objects.
+Developed **Python-based research instrumentation software** integrating **NI-DAQ hardware and Arduino sensors** for multichannel acquisition at **100 Hz**. Implemented a GUI with live plotting, multithreaded collection, and automated CSV logging. The full implementation is not publicly available.
+
+`Python` `NI-DAQmx` `Arduino` `Data Acquisition` `Multithreading`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center"><a href="https://github.com/Omar-Alhalawani/CubeX-Trio-Revival">CubeX Trio Revival (In Progress)</a></h3>
+
+An ongoing project to modernize a discontinued **CubeX Trio 3D printer** with open-source controller hardware and **Marlin firmware**. Work includes controller integration, motion hardware, and a revised hotend/carriage setup.
+
+`Marlin` `Embedded Hardware` `Electronics` `System Integration`
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center"><a href="https://github.com/Omar-Alhalawani/Wireless_IoT-Controlled_Robotic_Car">Wi-Fi Robotic Car & Manipulator</a></h3>
+
+Designed a **Wi-Fi-controlled vehicle with a mounted robotic arm** for a simulated hazard-disposal task. Used an **ESP8266 and Blynk** for vehicle control and an **Arduino Uno with potentiometers** for multi-servo arm control.
 
 `Arduino` `ESP8266` `C++` `Blynk IoT` `Motor Control`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center"><a href="https://github.com/Omar-Alhalawani/FPGA-Based-Arithmetic-Display-System">FPGA Arithmetic Display System</a></h3>
-
-A digital-logic project focused on FPGA-based arithmetic processing and display output, extending my work in RTL design and hardware-oriented development.
-
-`FPGA` `Digital Logic` `RTL` `Hardware Design`
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center"><a href="https://github.com/Omar-Alhalawani/simon-says-memory-game">Simon Says Memory Game</a></h3>
-
-An Arduino-based handheld memory game with multiple game modes, audio feedback, score tracking, and a custom-built physical enclosure.
-
-`Arduino` `C++` `Embedded Systems` `Prototyping`
 
 </td>
 </tr>
@@ -150,10 +151,10 @@ An Arduino-based handheld memory game with multiple game modes, audio feedback, 
 
 ## Current Focus
 
-- Growing my experience in **ASIC design verification, UVM, pyuvm, regression automation, and waveform debugging**
-- Continuing the **CubeX Trio open-source conversion** and documenting the engineering process
-- Exploring **real-time systems, embedded Linux, robotics, FPGA design, and hardware-software integration**
-- Building reliable systems that combine software, electronics, sensing, and physical actuation
+- Expanding my **ASIC verification and RTL design** skills through SystemVerilog, UVM, pyuvm, testbenches, regressions, and waveform debugging
+- Preparing for my **Winter 2027 Ciena ASIC engineering co-op** after completing my Summer 2026 term
+- Building experience with **FPGA design, real-time/embedded software, sensors, and research instrumentation**
+- Continuing the **CubeX Trio open-source conversion** as an ongoing hardware project
 
 ## GitHub Activity
 
@@ -165,7 +166,7 @@ An Arduino-based handheld memory game with multiple game modes, audio feedback, 
 
 ## Let’s Connect
 
-I am always interested in discussing embedded systems, robotics, digital hardware, real-time computing, and engineering projects.
+I am interested in ASIC/RTL verification, embedded systems, robotics, research instrumentation, and collaborative engineering projects.
 
 <div align="center">
 
@@ -178,7 +179,7 @@ I am always interested in discussing embedded systems, robotics, digital hardwar
 
 <br><br>
 
-<i>Building reliable systems, one layer at a time.</i>
+<i>ASIC verification · Digital design · Embedded systems</i>
 
 </div>
 
